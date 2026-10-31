@@ -1,0 +1,41 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Git metadata (including nested repositories)
+**/.git/
+
+# Operating system files
+.DS_Store
+.AppleDouble
+Thumbs.db
+desktop.ini
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Secrets and local environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Project files intentionally not published
+Estimasi Harga Kendaraan.pdf
+link streamlit.txt
